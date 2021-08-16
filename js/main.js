@@ -51,8 +51,8 @@ if (footer !== null) {
   footer.innerHTML = "Copyright &copy; 2021";
 }
 
-const currentProjects = `
-<div class="item">
+// const currentProjects = `
+{/* <div class="item">
 <a href="#!">
   <img src="img/projects/realtor-estates.png" alt="Project" />
 </a>
@@ -127,13 +127,14 @@ const currentProjects = `
 >
   <i class="fab fa-github"></i> Github
 </a>
-</div>
-`;
+</div> */}
 
-const workListDiv = document.querySelector(".projects");
-if (workListDiv != null) {
-  workListDiv.innerHTML = currentProjects;
-}
+// `;
+
+// const workListDiv = document.querySelector(".projects");
+// if (workListDiv != null) {
+//   workListDiv.innerHTML = currentProjects;
+// }
 // Set Initial State Of Menu
 let showMenu = false;
 
