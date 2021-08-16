@@ -10,12 +10,19 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 20%;
+        /* padding-top: 20%; */
         font-size: 2rem;
       }
 
       .blogs > ul li:hover {
         cursor: pointer;
+      }
+
+      .btn {
+        background-color: white;
+        color: black;
+        width: 200px;
+        opacity: 0.8;
       }
     </style>
 
@@ -31,6 +38,12 @@
     />
 
     <link rel="stylesheet" href="css/main.css" />
+    <style>
+      .container {
+        margin: 100px;
+        /* padding: 1rem; */
+      }
+    </style>
   </head>
   <body id="bg-img">
     <header id="nav-holder">
@@ -40,7 +53,37 @@
         <div class="btn-line"></div>
       </div>
     </header>
-    <section>
+    <section class="blogs">
+      <div class="container">
+        <h1>Even Bubbling in Js</h1>
+        <small>July , 2021</small>
+        <p>
+          Event Bubbling in JS and how it helped me in one of my project....
+        </p>
+        <a
+          type="button"
+          class="link link-primary btn"
+          href="https://ash360.hashnode.dev/event-bubbling-in-javascript"
+          target="_blank"
+          >Read more</a
+        >
+      </div>
+      <div class="container">
+        <h1>Even Delegation in Js</h1>
+        <small>August , 2021</small>
+        <p>
+          Event Bubbling in JS and how it helped me in one of my project....
+        </p>
+        <a
+          type="button"
+          class="link link-primary btn"
+          href="https://ash360.hashnode.dev/event-bubbling-in-javascript"
+          target="_blank"
+          >Read more</a
+        >
+      </div>
+    </section>
+    <!-- <section>
       <div class="blogs">
         <ul>
           <li>
@@ -52,7 +95,7 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <script src="./js/main.js"></script>
   </body>
 </html>
